@@ -39,7 +39,7 @@ Overall, this code simulates the functionality of a real coffee shop, providing 
 ## HOW TO RUN-
 
 1.  To run this Python code, you need to have Python installed on your system. You also need to install the tkinter library.
-2.  Download the RMS.py file from the repository and save it to a directory. Also, save the user input.txt file to the same directory. The user  input.txt file contains information about the restaurant name (rn)      and menu (rm).
+2.  Download the RMS.py file from the repository and save it to a directory. Also, save the user input.txt file and 'order history.xlsx' Excel file to the same directory. The user  input.txt file contains information about the restaurant name (rn)      and menu (rm).
     Make sure the user input.txt file is correctly formatted with the restaurant name on the first line, followed by a list of food names separated by commas on the second line, and corresponding prices separated     by commas on the third line.
 3.  Open the terminal or command prompt and navigate to the directory where the RMS.py file is saved. After running the code, the system first reads the restaurant name and menu items from the user input.txt file     and initializes the RMS class instance with these values.
 4.  The GUI interface is opened when running the code.The user can then click on the "START" button to begin the order process,which includes: taking orders, preparing orders, serving orders, displaying the bill,     verifying payments, and thanking the user. The user can order multiple items, and the total cost will be displayed at the end. If the payment is successful, the system thanks the user for visiting the     
